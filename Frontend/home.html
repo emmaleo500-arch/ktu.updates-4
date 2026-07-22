@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KTU.Vibes · Home</title>
+  <!-- Font Awesome 6 (free) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="css/home_style.css" />
+</head>
+<body>
+  <div class="app-wrapper">
+
+    <!-- ===== TOP BAR ===== -->
+    <header class="top-bar">
+      <div class="logo-area">
+        <img src="https://ktu.edu.gh/wp-content/uploads/2025/06/ktu_logo1.png" alt="KTU Logo" class="logo-img" />
+      </div>
+      <nav class="nav-links">
+        <a href="home.html" class="active">Home</a>
+        <a href="news_feed.html">News feed</a>
+        <a href="news_detial.html">News detail</a>
+        <a href="catagories.html">Categories</a>
+        <a href="events.html">Event</a>
+        <a href="bookmark.html">Bookmark</a>
+        <a href="notification.html">Notification</a>
+        <a href="profile.html">Profile</a>
+        <a href="admin_dashborad.html">Admin</a>
+      </nav>
+      <div class="user-actions">
+        <i class="fas fa-search"></i>
+        <i class="far fa-bell"></i>
+        <div class="avatar">
+        </div>
+      </div>
+    </header>
+
+    <!-- ===== PAGE GRID ===== -->
+    <div class="page-grid">
+
+      <!-- MAIN COLUMN -->
+      <main class="main-feed">
+        <!-- categories strip -->
+        <div class="category-strip">
+          <span class="category-pill active"><i class="fas fa-fire"></i> Trending</span>
+          <span class="category-pill"><i class="fas fa-globe"></i> World</span>
+          <span class="category-pill"><i class="fas fa-microchip"></i> Tech</span>
+          <span class="category-pill"><i class="fas fa-futbol"></i> Sports</span>
+          <span class="category-pill"><i class="fas fa-film"></i> Entertainment</span>
+          <span class="category-pill"><i class="fas fa-heart"></i> Lifestyle</span>
+        </div>
+
+        <!-- news cards -->
+        <article class="news-card">
+          <div class="news-meta">
+            <span><i class="far fa-clock"></i> 2h ago</span>
+            <span class="badge">World</span>
+            <span><i class="far fa-eye"></i> 1.2k</span>
+          </div>
+          <div class="news-title">Global climate summit 2026: new commitments</div>
+          <div class="news-excerpt">Leaders from 60 nations gathered in Nairobi to accelerate renewable energy targets. The summit concluded with a historic pledge to cut emissions by 45% before 2030.</div>
+          <div class="news-footer">
+            <span><i class="far fa-comment"></i> 43 comments</span>
+            <span><i class="far fa-heart"></i> 281</span>
+            <span class="bookmark-icon"><i class="far fa-bookmark"></i></span>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <div class="news-meta">
+            <span><i class="far fa-clock"></i> 5h ago</span>
+            <span class="badge">Tech</span>
+            <span><i class="far fa-eye"></i> 3.4k</span>
+          </div>
+          <div class="news-title">KTU.Vibes launches AI-powered content curator</div>
+          <div class="news-excerpt">The new 'VibeCast' engine uses natural language processing to deliver hyper-personalized news feeds. Early testers report a 70% increase in engagement.</div>
+          <div class="news-footer">
+            <span><i class="far fa-comment"></i> 28 comments</span>
+            <span><i class="far fa-heart"></i> 512</span>
+            <span class="bookmark-icon"><i class="fas fa-bookmark" style="color:#00008b;"></i></span>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <div class="news-meta">
+            <span><i class="far fa-clock"></i> yesterday</span>
+            <span class="badge">Event</span>
+            <span><i class="far fa-eye"></i> 980</span>
+          </div>
+          <div class="news-title">Summer Vibes Festival – early bird tickets live</div>
+          <div class="news-excerpt">Join us on August 14-16 for the biggest cultural festival of the year. Lineup includes international DJs, art installations, and wellness workshops.</div>
+          <div class="news-footer">
+            <span><i class="far fa-comment"></i> 17 comments</span>
+            <span><i class="far fa-heart"></i> 134</span>
+            <span class="bookmark-icon"><i class="far fa-bookmark"></i></span>
+          </div>
+        </article>
+
+        <!-- event card -->
+        <div class="event-card">
+          <h4><i class="fas fa-calendar-alt" style="color:#00008b; margin-right: 8px;"></i>Upcoming: KTU.Vibes meetup</h4>
+          <p>Community gathering · July 28, 2026 · 6:30 PM (GMT+2)</p>
+          <div class="event-date">
+            <span><i class="fas fa-map-pin"></i> Nairobi, Kenya</span>
+            <span><i class="fas fa-users"></i> 64 attending</span>
+          </div>
+        </div>
+      </main>
+
+      <!-- ===== SIDEBAR ===== -->
+      <aside class="sidebar">
+        <!-- bookmarks -->
+        <section class="side-card">
+          <h3><i class="fas fa-bookmark"></i> Bookmarks</h3>
+          <div class="bookmark-item">
+            <i class="fas fa-bookmark"></i>
+            <div><strong>AI & future of work</strong><br /><span style="font-size:12px; color:#64748b;">Tech · 2d ago</span></div>
+          </div>
+          <div class="bookmark-item">
+            <i class="fas fa-bookmark"></i>
+            <div><strong>Top 10 travel destinations</strong><br /><span style="font-size:12px; color:#64748b;">Lifestyle · 5d ago</span></div>
+          </div>
+          <div class="bookmark-item">
+            <i class="fas fa-bookmark"></i>
+            <div><strong>KTU.Vibes design system</strong><br /><span style="font-size:12px; color:#64748b;">Design · 1w ago</span></div>
+          </div>
+          <div style="margin-top:6px; font-size:13px; color:#00008b; font-weight:500;">View all <i class="fas fa-arrow-right"></i></div>
+        </section>
+
+        <!-- notifications -->
+        <section class="side-card">
+          <h3><i class="fas fa-bell"></i> Notifications</h3>
+          <div class="notif-item">
+            <i class="fas fa-circle" style="color:#3b82f6; font-size:10px;"></i>
+            <div><strong>Trending now:</strong> Climate summit update</div>
+          </div>
+          <div class="notif-item">
+            <i class="fas fa-circle" style="color:#f59e0b; font-size:10px;"></i>
+            <div><strong>Event reminder:</strong> Summer Vibes Festival</div>
+          </div>
+          <div class="notif-item">
+            <i class="fas fa-circle" style="color:#10b981; font-size:10px;"></i>
+            <div>Your article was featured in Tech Digest</div>
+          </div>
+          <div style="margin-top:6px; font-size:13px; color:#00008b; font-weight:500;">Mark all read</div>
+        </section>
+
+        <!-- profile mini -->
+        <section class="side-card">
+          <h3><i class="fas fa-user"></i> Profile</h3>
+          <div class="profile-mini">
+            <div class="avatar-small"></div>
+            <div>
+              <div>Emma Leo</div>
+              <span>@leoxvibes · 1.2k followers</span>
+            </div>
+          </div>
+          <div style="display: flex; gap: 8px; margin-top: 6px; flex-wrap: wrap;">
+            <span style="background:#eef2ff; padding:4px 16px; border-radius:40px; font-size:13px;"><i class="fas fa-pen"></i> Edit</span>
+            <span style="background:#eef2ff; padding:4px 16px; border-radius:40px; font-size:13px;"><i class="fas fa-cog"></i> Settings</span>
+          </div>
+        </section>
+
+        <!-- admin dashboard preview -->
+        <section class="side-card" style="background:#1e293b; color:white; border: none;">
+          <h3 style="color:white;"><i class="fas fa-chart-line" style="color:#a78bfa;"></i> Admin Dashboard</h3>
+          <div class="admin-dash-preview" style="background:transparent; padding:0;">
+            <div class="row"><span><i class="fas fa-file-alt"></i> Total posts</span> <span>342</span></div>
+            <div class="row"><span><i class="fas fa-users"></i> Active users</span> <span>2.4k</span></div>
+            <div class="row"><span><i class="fas fa-comment"></i> Comments</span> <span>1.8k</span></div>
+            <div class="row" style="border-bottom:0;"><span><i class="fas fa-flag"></i> Reports</span> <span>3</span></div>
+          </div>
+          <div style="margin-top:14px; background:#2d3748; border-radius:40px; padding:8px 0; text-align:center; font-size:13px; font-weight:500; color:#cbd5e1;">
+            <i class="fas fa-lock"></i> Manage
+          </div>
+        </section>
+
+        <!-- login / register -->
+        <section class="side-card">
+          <h3><i class="fas fa-key"></i> Access</h3>
+          <div class="auth-row">
+            <span class="auth-btn primary"><i class="fas fa-sign-in-alt">
+                <a href="login.html"></a>
+            </i> Login</span>
+            <span class="auth-btn"><i class="fas fa-user-plus">
+                <a href="register.html"></a>  
+            </i> Register</span>
+          </div>
+          <div style="margin-top:12px; font-size:13px; color:#64748b;">
+            <i class="fas fa-shield-alt"></i> Secure · quick access
+          </div>
+        </section>
+      </aside>
+    </div>
+
+    <!-- footer -->
+    <div class="footer-note">
+      <span><i class="far fa-copyright"></i> 2026 KTU.Vibes</span>
+      <span style="display: flex; gap: 16px;">
+        <span></span>
+        <span><i class="fab fa-js"></i> script.js</span>
+      </span>
+      <span><i class="fas fa-mobile-alt"></i> Responsive</span>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>

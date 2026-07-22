@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KTU.Vibes · News Feed</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="css/home_style.css" />
+  <link rel="stylesheet" href="css/news_feed_style.css" />
+</head>
+<body>
+  <div class="app-wrapper">
+    <header class="top-bar">
+      <div class="logo-area">
+        <img src="https://ktu.edu.gh/wp-content/uploads/2025/06/ktu_logo1.png" alt="KTU Logo" class="logo-img" />
+      </div>
+      <nav class="nav-links">
+        <a href="home.html">Home</a>
+        <a href="news_feed.html" class="active">News feed</a>
+        <a href="news_detial.html">News detail</a>
+        <a href="catagories.html">Categories</a>
+        <a href="events.html">Event</a>
+        <a href="bookmark.html">Bookmark</a>
+        <a href="notification.html">Notification</a>
+        <a href="profile.html">Profile</a>
+        <a href="admin_dashborad.html">Admin</a>
+      </nav>
+      <div class="user-actions">
+        <i class="fas fa-search"></i>
+        <i class="far fa-bell"></i>
+        <div class="avatar"></div>
+      </div>
+    </header>
+
+    <div class="page-grid">
+      <main class="main-feed news-feed-grid">
+        <h2 style="font-weight:600; font-size:24px; margin-bottom:4px;"><i class="fas fa-rss" style="color:#00008b;"></i> Latest News</h2>
+        <article class="news-card">
+          <div class="news-meta"><span><i class="far fa-clock"></i> 1h ago</span><span class="badge">Tech</span><span><i class="far fa-eye"></i> 2.1k</span></div>
+          <div class="news-title">New AI model outperforms GPT-5 on reasoning tasks</div>
+          <div class="news-excerpt">Researchers at Kiu.Labs unveil a new architecture that achieves state-of-the-art results on complex logical reasoning benchmarks.</div>
+          <div class="news-footer"><span><i class="far fa-comment"></i> 56 comments</span><span><i class="far fa-heart"></i> 342</span><span class="bookmark-icon"><i class="far fa-bookmark"></i></span></div>
+        </article>
+        <article class="news-card">
+          <div class="news-meta"><span><i class="far fa-clock"></i> 3h ago</span><span class="badge">World</span><span><i class="far fa-eye"></i> 890</span></div>
+          <div class="news-title">Peace talks resume in Eastern Europe</div>
+          <div class="news-excerpt">Diplomatic efforts intensify as both sides agree to a temporary ceasefire. Humanitarian corridors are being established.</div>
+          <div class="news-footer"><span><i class="far fa-comment"></i> 32 comments</span><span><i class="far fa-heart"></i> 178</span><span class="bookmark-icon"><i class="far fa-bookmark"></i></span></div>
+        </article>
+        <article class="news-card">
+          <div class="news-meta"><span><i class="far fa-clock"></i> 6h ago</span><span class="badge">Sports</span><span><i class="far fa-eye"></i> 1.4k</span></div>
+          <div class="news-title">Champions League final: dramatic penalty shootout</div>
+          <div class="news-excerpt">In a thrilling match that ended 3-3 after extra time, the underdog team clinched victory in a 5-4 penalty shootout.</div>
+          <div class="news-footer"><span><i class="far fa-comment"></i> 89 comments</span><span><i class="far fa-heart"></i> 623</span><span class="bookmark-icon"><i class="far fa-bookmark"></i></span></div>
+        </article>
+      </main>
+      <aside class="sidebar">
+        <section class="side-card"><h3><i class="fas fa-fire"></i> Trending</h3><div style="padding:8px 0;">• AI breakthroughs<br />• Climate action<br />• Festival season</div></section>
+        <section class="side-card"><h3><i class="fas fa-clock"></i> Recent</h3><div style="padding:8px 0;">• Tech news<br />• World updates<br />• Sports highlights</div></section>
+      </aside>
+    </div>
+    <div class="footer-note"><span><i class="far fa-copyright"></i> 2026 KTU.Vibes</span><span>News feed</span></div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KTU.Vibes · Login</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="css/home_style.css" />
+  <link rel="stylesheet" href="css/login_style.css" />
+</head>
+<body>
+  <div class="app-wrapper" style="max-width:520px; margin:40px auto;">
+    <div class="login-container">
+      <div style="text-align:center; margin-bottom:24px;">
+        <img src="https://ktu.edu.gh/wp-content/uploads/2025/06/ktu_logo1.png" alt="KTU Logo" style="height:64px; margin:0 auto 8px; display:block;" />
+        <h2 style="font-weight:700;">Welcome back</h2>
+        <p style="color:#64748b;">Login to your KTU.Vibes account</p>
+      </div>
+      <form onsubmit="event.preventDefault(); window.location.href='home.html';">
+        <input type="email" placeholder="Email address" value="alex@kiu.vibes" required />
+        <input type="password" placeholder="Password" value="••••••••" required />
+        <button class="login-btn"><i class="fas fa-sign-in-alt"></i> Login</button>
+        <div style="text-align:center; margin-top:16px; font-size:14px; color:#64748b;">
+          Don't have an account? <a href="register.html" style="color:#00008b; font-weight:500;">Register</a>
+        </div>
+      </form>
+    </div>
+    <div class="footer-note" style="justify-content:center;"><span><i class="far fa-copyright"></i> 2026 KTU.Vibes</span></div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>

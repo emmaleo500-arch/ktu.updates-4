@@ -1,0 +1,6 @@
+/* ============================================================ */
+/*  kiu.vibes/css/NewsDetail-style.css                          */
+/* ============================================================ */
+.news-detail-hero { background: #f8fafc; border-radius: 28px; padding: 28px 32px; margin-bottom: 24px; }
+.news-detail-hero h1 { font-size: 32px; font-weight: 700; margin: 12px 0 8px; }
+.news-detail-body { font-size: 17px; line-height: 1.7; color: #1e293b; }

@@ -1,0 +1,6 @@
+/* ============================================================ */
+/*  kiu.vibes/css/Login-style.css                               */
+/* ============================================================ */
+.login-container { max-width: 400px; margin: 40px auto; background: white; border-radius: 32px; padding: 40px 32px; box-shadow: 0 12px 30px rgba(0,0,0,0.15); }
+.login-container input { width: 100%; padding: 14px 18px; border-radius: 40px; border: 1px solid #e2e8f0; margin-bottom: 16px; font-size: 15px; }
+.login-container .login-btn { width: 100%; background: #00008b; color: white; border: none; padding: 14px; border-radius: 40px; font-weight: 600; font-size: 16px; cursor: pointer; }

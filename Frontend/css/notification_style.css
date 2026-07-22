@@ -1,0 +1,5 @@
+/* ============================================================ */
+/*  kiu.vibes/css/Notification_style.css                        */
+/* ============================================================ */
+.notif-list .notif-entry { display: flex; gap: 14px; padding: 14px 0; border-bottom: 1px solid #f1f5f9; }
+.notif-list .notif-entry .notif-dot { width: 10px; height: 10px; border-radius: 10px; margin-top: 6px; flex-shrink: 0; }

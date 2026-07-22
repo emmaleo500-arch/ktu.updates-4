@@ -1,0 +1,6 @@
+/* ============================================================ */
+/*  kiu.vibes/css/Register-Style.css                            */
+/* ============================================================ */
+.register-container { max-width: 440px; margin: 40px auto; background: white; border-radius: 32px; padding: 40px 32px; box-shadow: 0 12px 30px rgba(0,0,0,0.15); }
+.register-container .form-group { margin-bottom: 18px; }
+.register-container input { width: 100%; padding: 14px 18px; border-radius: 40px; border: 1px solid #e2e8f0; font-size: 15px; }

@@ -1,0 +1,6 @@
+/* ============================================================ */
+/*  kiu.vibes/css/Categories-style.css                          */
+/* ============================================================ */
+.categories-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 20px; }
+.category-card { background: #f1f5f9; border-radius: 20px; padding: 24px 12px; text-align: center; font-weight: 600; transition: 0.2s; }
+.category-card i { font-size: 28px; color: #00008b; margin-bottom: 8px; display: block; }

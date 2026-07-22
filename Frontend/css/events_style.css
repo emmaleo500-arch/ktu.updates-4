@@ -1,0 +1,5 @@
+/* ============================================================ */
+/*  kiu.vibes/css/Events-style.css                              */
+/* ============================================================ */
+.event-list .event-item { background: white; border-radius: 20px; padding: 18px 22px; border-left: 6px solid #00008b; margin-bottom: 16px; }
+.event-list .event-item h4 { font-weight: 600; }

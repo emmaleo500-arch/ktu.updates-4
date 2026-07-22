@@ -1,0 +1,6 @@
+/* ============================================================ */
+/*  kiu.vibes/css/AdminDashboard_style.css                      */
+/* ============================================================ */
+.admin-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 20px; }
+.admin-stat-card { background: #f1f5f9; border-radius: 20px; padding: 20px; text-align: center; }
+.admin-stat-card .stat-number { font-size: 28px; font-weight: 700; color: #1e293b; }

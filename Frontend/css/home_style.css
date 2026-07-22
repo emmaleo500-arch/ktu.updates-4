@@ -1,0 +1,62 @@
+/* ============================================================ */
+/*  kiu.vibes/css/Home-Style.css                                */
+/* ============================================================ */
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+body { background: #00008b; color: #1e293b; display: flex; justify-content: center; padding: 24px 16px; min-height: 100vh; position: relative; }
+.app-wrapper { position: relative; z-index: 1; background: white; border: none; }
+.app-wrapper { max-width: 1400px; width: 100%; border-radius: 36px 36px 28px 28px; box-shadow: 0 25px 50px -12px rgba(0,0,0,0.15); overflow: hidden; padding: 24px 28px 32px; }
+.top-bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; margin-bottom: 28px; }
+.logo-area { display: flex; align-items: center; gap: 8px; }
+.logo-img { height: 48px; width: auto; display: block; }
+.logo-icon { background: #00008b; width: 40px; height: 40px; border-radius: 14px; display: flex; align-items: center; justify-content: center; color: white; font-size: 22px; }
+.logo-text { font-weight: 700; font-size: 24px; letter-spacing: -0.3px; }
+.logo-text span { color: #00008b; }
+.nav-links { display: flex; flex-wrap: wrap; gap: 22px; font-weight: 500; color: #475569; }
+.nav-links a { text-decoration: none; color: inherit; transition: 0.2s; }
+.nav-links a:hover { color: #00008b; }
+.nav-links .active { color: #00008b; border-bottom: 3px solid #00008b; padding-bottom: 4px; }
+.user-actions { display: flex; align-items: center; gap: 18px; }
+.user-actions i { font-size: 20px; color: #334155; cursor: pointer; transition: 0.2s; }
+.user-actions i:hover { color: #00008b; }
+.avatar { width: 40px; height: 40px; border-radius: 40px; background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23475569"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>'); background-size: 60%; background-position: center 55%; background-repeat: no-repeat; background-color: #e2e8f0; }
+.page-grid { display: grid; grid-template-columns: 1fr 280px; gap: 32px; margin-top: 8px; }
+.main-feed { display: flex; flex-direction: column; gap: 28px; }
+.category-strip { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 8px; }
+.category-pill { background: #f1f5f9; padding: 8px 20px; border-radius: 40px; font-size: 14px; font-weight: 500; color: #1e293b; cursor: default; transition: 0.2s; }
+.category-pill.active { background: #00008b; color: white; }
+.category-pill i { margin-right: 6px; font-size: 13px; }
+.news-card { background: white; border-radius: 24px; padding: 20px 22px; box-shadow: 0 4px 12px rgba(0,0,0,0.02); border: 1px solid #edf2f7; transition: 0.2s; }
+.news-card:hover { border-color: #d9dff0; }
+.news-meta { display: flex; align-items: center; gap: 14px; font-size: 13px; color: #64748b; margin-bottom: 8px; }
+.news-meta .badge { background: #dbeafe; color: #2563eb; padding: 2px 14px; border-radius: 40px; font-weight: 600; font-size: 11px; }
+.news-title { font-size: 20px; font-weight: 700; margin: 6px 0 8px; }
+.news-excerpt { color: #475569; line-height: 1.5; margin-bottom: 14px; }
+.news-footer { display: flex; justify-content: space-between; font-size: 13px; color: #64748b; border-top: 1px solid #eef2f6; padding-top: 14px; }
+.news-footer i { margin-right: 6px; }
+.bookmark-icon { color: #94a3b8; cursor: pointer; }
+.bookmark-icon:hover { color: #00008b; }
+.event-card { background: #f8fafc; border-radius: 20px; padding: 18px 20px; border-left: 6px solid #00008b; }
+.event-card h4 { font-weight: 600; margin-bottom: 4px; }
+.event-card p { color: #475569; font-size: 14px; }
+.event-date { display: flex; gap: 16px; margin-top: 10px; font-size: 13px; color: #334155; }
+.sidebar { display: flex; flex-direction: column; gap: 26px; }
+.side-card { background: white; border-radius: 24px; padding: 20px; border: 1px solid #edf2f7; }
+.side-card h3 { font-size: 16px; font-weight: 600; margin-bottom: 14px; display: flex; align-items: center; gap: 8px; }
+.side-card h3 i { color: #00008b; }
+.bookmark-item, .notif-item { display: flex; gap: 12px; padding: 12px 0; border-bottom: 1px solid #f1f5f9; font-size: 14px; }
+.bookmark-item:last-child, .notif-item:last-child { border-bottom: 0; }
+.bookmark-item i { color: #00008b; font-size: 16px; width: 20px; }
+.notif-item i { color: #3b82f6; font-size: 16px; width: 20px; }
+.profile-mini { display: flex; align-items: center; gap: 14px; padding: 8px 0; }
+.profile-mini .avatar-small { width: 44px; height: 44px; border-radius: 40px; background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23475569"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>'); background-size: 55%; background-position: center 55%; background-repeat: no-repeat; background-color: #e2e8f0; }
+.profile-mini div { font-weight: 500; }
+.profile-mini span { font-size: 13px; color: #64748b; }
+.admin-dash-preview { background: #1e293b; color: white; border-radius: 20px; padding: 18px; margin-top: 8px; }
+.admin-dash-preview i { color: #a78bfa; margin-right: 6px; }
+.admin-dash-preview .row { display: flex; justify-content: space-between; font-size: 14px; padding: 6px 0; border-bottom: 1px solid #334155; }
+.auth-row { display: flex; gap: 16px; margin-top: 6px; flex-wrap: wrap; }
+.auth-btn { background: #f1f5f9; padding: 8px 20px; border-radius: 40px; font-weight: 500; font-size: 14px; cursor: default; display: inline-flex; align-items: center; gap: 8px; transition: 0.2s; }
+.auth-btn.primary { background: #00008b; color: white; }
+.footer-note { margin-top: 28px; border-top: 1px solid #e9edf4; padding-top: 20px; display: flex; justify-content: space-between; flex-wrap: wrap; font-size: 14px; color: #64748b; }
+@media (max-width: 900px) { .page-grid { grid-template-columns: 1fr; } .top-bar { flex-direction: column; align-items: stretch; gap: 16px; } .nav-links { justify-content: center; } .user-actions { justify-content: flex-end; } }
+@media (max-width: 520px) { .app-wrapper { padding: 16px; } .nav-links { gap: 12px; font-size: 14px; } }
